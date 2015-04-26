@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    formatador (0.2.5)
+    tach (0.0.8)
+      formatador (>= 0.0.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  tach

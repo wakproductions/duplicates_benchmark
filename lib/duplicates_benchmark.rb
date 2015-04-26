@@ -1,0 +1,5 @@
+require_relative 'algorithms/kyle'
+require_relative 'algorithms/mack'
+require_relative 'algorithms/miles'
+require_relative 'algorithms/original'
+require_relative 'algorithms/winston'
