@@ -8,6 +8,10 @@ TIMES = 1_000_000
 
 
 Tach.meter(TIMES) do
+  tach 'Isaac' do
+    DuplicatesBenchmark::Isaac.duplicates(INPUT)
+  end
+
   tach 'Kyle' do
     DuplicatesBenchmark::Kyle.duplicates(INPUT)
   end

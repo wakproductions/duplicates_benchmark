@@ -39,19 +39,20 @@ with the debugger on, TIMES=100_000.
       +--------------------+-----------+
       | tach               | total     |
       +--------------------+-----------+
-      | Kyle               | 14.494461 |
+      | Kyle               | 14.818869 |
       +--------------------+-----------+
-      | Kyle (monkeypatch) | 15.163229 |
+      | Isaac              | 15.070097 |
       +--------------------+-----------+
-      | Miles              | 26.587813 |
+      | Kyle (monkeypatch) | 16.597024 |
       +--------------------+-----------+
-      | Original           | 26.686894 |
+      | Winston            | 26.808144 |
       +--------------------+-----------+
-      | Winston            | 26.908539 |
+      | Miles              | 26.874811 |
       +--------------------+-----------+
-      | Mack               | 28.997617 |
+      | Original           | 27.150746 |
       +--------------------+-----------+
-
+      | Mack               | 31.517404 |
+      +--------------------+-----------+
 
 Running it in IRB through a Terminal window was much faster. In fact, it was so much faster that I increased
 TIMES tenfold to 1_000_000. Surprisingly, Mack's algorithm had a significant improvement in performance without
@@ -60,15 +61,17 @@ the debugger running. However, Kyle's algorithm was near the top in both environ
       +--------------------+-----------+
       | tach               | total     |
       +--------------------+-----------+
-      | Mack               | 27.828988 |
+      | Mack               | 27.587715 |
       +--------------------+-----------+
-      | Kyle               | 28.702900 |
+      | Kyle (monkeypatch) | 28.354408 |
       +--------------------+-----------+
-      | Kyle (monkeypatch) | 29.051339 |
+      | Kyle               | 28.539068 |
       +--------------------+-----------+
-      | Winston            | 36.099284 |
+      | Isaac              | 29.204867 |
       +--------------------+-----------+
-      | Miles              | 36.215249 |
+      | Winston            | 35.942340 |
       +--------------------+-----------+
-      | Original           | 36.930765 |
+      | Original           | 36.033839 |
+      +--------------------+-----------+
+      | Miles              | 36.238827 |
       +--------------------+-----------+
