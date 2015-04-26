@@ -1,3 +1,4 @@
+require_relative 'algorithms/isaac'
 require_relative 'algorithms/kyle'
 require_relative 'algorithms/mack'
 require_relative 'algorithms/miles'
